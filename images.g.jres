@@ -1,0 +1,67 @@
+{
+    "image11": {
+        "data": "hwQQABAAAAAAAAAAAMD/AADA/A8AHGEPAGx398AXEcbAd2x3fxcRwWx39ncsEhHBfHdmd3x3EcF8d2Z3fGcWwXx39md8/GbBfHdsx2fPbMFsd3d3x8xmxsB3d3f2ZmbGAGx3Z39nZvYAwPz/d2fGDwAAAMB3xv8AAAAAAHwMAAAAAAAAwAwAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Enemigo1"
+    },
+    "image12": {
+        "data": "hwQQABAAAAAAAAAAAPD/AAAAAAAAwLEAAAD//w8f+wAA/929/B+xAPAbEd29H/sA8BERvRzM8Q8fERHxH73/Dx8REdER+///HxER0RGx//8fERHxH/v///AREb0czbEP8BsR3b0f+wAA/929/B+xAAAA//8PH/sAAAAAAADPsQAAAAAAAPD/AA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "enemigo2"
+    },
+    "image10": {
+        "data": "hwQQABAAAAAAAAAAAAAAzAAAAAAAAMDMAAAAAAAAzMwAAAAAAADPzAAAAAAA4M/MAAAAAADs78wAAAAA7izs7gAAAOAuLCzuAAAAIEQuLiIAAAAA7k4uIgAAAAAA7i8iAAAAAADgTyQAAAAAAAAuQgAAAAAAAO4iAAAAAAAA4O4AAAAAAAAA7g==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Obstaculo"
+    },
+    "image7": {
+        "data": "hwQUABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIgAAAAAAAAAAAAAyIwIAAAAAAAAAAAAiIiIAAAAAAAAAAAAgIiICAAAAAAAAAAAAIiIiAAAAAAAAAAAgIrICAAAAAAAAAAAiIisAAAAAAAAAAAAiIgIAAAAAAAAAAAAgIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Recompensa1"
+    },
+    "image8": {
+        "data": "hwQQABAAAAAAAMDMzAwAAADA7O7u7gIAAOzu7u7uLgAA7u4iIuLuAuDuLiIiIuIC4O4iIiIiIi7g7i4iIiIiLs7MLCIiIiLkfGcsIiIiIuR37iIiIiIi5ODiRCIiIkLi4CJVJCIiQg4ALlQkIiIkDgAuIiIiROIAAOAuIiLiDgAAAODu7g4AAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "recompensa2"
+    },
+    "image9": {
+        "data": "hwQIAAgAAAAAAAAAALvMALBV3Q9bHdH9W1MV/Vs90/2wVVUPALvMAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "recompensa3"
+    },
+    "image5": {
+        "data": "hwQQABAAAAAAAAAAsMsMAAAAsAuw3csAAACwvdvd3QwAALBVvdzdywAAsFtVzd3NAAC7tVXF3c0AsFtVW7XdzQCwVdXRW9XNALBVFf9VVc0Au1X1v1RVxQC1VVVFVFXFALVV1URUVbUAC1tFRFRVuwAAsPtMVNULAAAAALC0uwAAAAAAAAsAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Ayudante"
+    },
+    "image6": {
+        "data": "hwQQAA4AAAAAAAAAAAAAAAAAAAD/DwAAAEDkAF/1AAAAVFUO8FUPAEBVRe7/T/8AQFVEVWVU/wBAVVT1VVb1AABeVVVVVv8AAOBVVfRW9QAA4FVV9Fb0AABeVVVVVvUAQFVU9VVWDwBAVURVRf8AAEBVRe4PAAAAAFRVDgAAAAAAQOQAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Ayudante2"
+    },
+    "image3": {
+        "data": "hwQOABAAAAAA/w8AAAAAAPD///8PAAAA8P8///8PAADw/zz/RE/+AAC/w/zU3+0P8MzMzE/U7f/wzMzMG+3+//DMzMz/PWP/8MzMTNQ9Yw/wz8xE1D1jDwDPzOz+//8AAPDP/P8AAAAAAPD/DwAAAAAAAAAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Fall"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAADw/wAAAAAAAPBmDwAAAAAAAG/2AAAAAAAA8GYPAAAAAPD//w8AAAAA8GZmb2YAAADwZmZvZgAAAPBmZA8AAAAA8CaVb2YAAADwZmNvZgAAAPBmVQ8AAAAA8G9Wb2YAAADwZlVvZgAAAPBvVg8AAAAA8GZVb2YAAADw//9vZg==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Walking"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAAAAAAAAAAAADw////AAAAAPBmZvYAAAAA8GZm9v///wDw////Zv//8P9mZmZmb/bw9mZvVWb///D2ZmZWZv//8PZmZlVmb/bw9mZmVmb///D2Zm9VZm/28P9mZmZm//8A8P///2b//wDwZmb2/2/2APBmZvYA//8A8P///wAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Idle"
+    },
+    "image1": {
+        "data": "hwQQABAAAADw/5CZCQCZAP///5kAmZAJb2b///8A/5n/////////CW9mZmb2ZvYPb2ZmZvb//wBv9mZV9v//AG9mZlb2ZvYAb2ZmVfb//w9vZmZW9v//mW/2ZlX2ZvaZb2ZmZvb//wBvZmZm9mb2Cf////////+Zb2YPkJAACQD//w+QmQCZCQ==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Jump"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
