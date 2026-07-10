@@ -225,6 +225,25 @@ f f 6 f 6 6 f 6 6 6 f 6 6 f 6 f
 . 9 9 9 f . . . f 9 9 . 9 9 . 9 
 . . 9 . . . . . . 9 9 . . 9 . . 
 `;
+            case "image13":
+            case "poder":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f . . . . . 
+. f f f . f 6 6 6 6 f . f f f . 
+. f 6 f f f f f f f f f f 6 f . 
+. f 6 f 6 6 6 6 6 6 6 6 f 6 f . 
+. f 6 f 6 6 f 6 6 f 6 6 f 6 f . 
+. f f f 6 6 6 6 6 6 6 6 f f f . 
+. 5 f f 6 6 5 6 5 6 5 6 f 7 . . 
+. 2 3 e 4 8 5 5 5 5 5 3 4 b . . 
+. 6 . f 6 6 6 6 6 6 6 6 f a . . 
+. . . f f f f f f f f f f f f . 
+. . . f 6 f f 6 f f 6 f f 6 f . 
+. . . f 6 f f 6 f f 6 f f 6 f . 
+. . . f f f f f f f f f f f f . 
+`;
         }
         return null;
     })

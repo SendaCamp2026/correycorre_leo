@@ -59,6 +59,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Jump"
     },
+    "image13": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAA//9fYgAAAABvZv8DAAAAAP////7//wAA8GZmZG/2APD/ZmZo//8A8Pb2VmX//wDw9mZmZW/2APD2ZlZl//8A8Pb2ZmX//wDw/2ZWZW/2AADwZmZj//8AAP////T//wAAb2Z/q2/2AAD//w8A//8AAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "poder"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
