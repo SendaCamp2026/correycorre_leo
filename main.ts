@@ -76,8 +76,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Vida, function (sprite, otherSpr
 })
 function crearNivel () {
     if (nivelActual == 1) {
-        tiles.setCurrentTilemap(tilemap`nivel1`)
-        tiles.placeOnTile(pebble, tiles.getTileLocation(1, 7))
+        tiles.setCurrentTilemap(tilemap`nivel2`)
+        tiles.placeOnTile(pebble, tiles.getTileLocation(0, 1))
     }
     crearRecompensas()
     crearObstaculos()
