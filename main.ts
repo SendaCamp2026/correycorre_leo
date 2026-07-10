@@ -19,7 +19,7 @@ function crearObstaculos () {
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (cantidadSaltos < MaxSalto) {
         cantidadSaltos += 1
-        mySprite.vy = -200
+        pebble.vy = -200
     }
 })
 function SpawnEnemigo () {
@@ -29,10 +29,10 @@ function SpawnEnemigo () {
     }
 }
 function configurarPersonaje () {
-    mySprite = sprites.create(assets.image`Idle`, SpriteKind.Player)
-    mySprite.ay = 300
-    controller.moveSprite(mySprite, velocidadX, 0)
-    scene.cameraFollowSprite(mySprite)
+    pebble = sprites.create(assets.image`Idle`, SpriteKind.Player)
+    pebble.ay = 300
+    controller.moveSprite(pebble, velocidadX, 0)
+    scene.cameraFollowSprite(pebble)
     info.setLife(3)
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Puntos, function (sprite, otherSprite) {
@@ -56,10 +56,10 @@ function crearEnemigo (tipo: string, columna: number, fila: number, velocidad_X:
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     sprites.destroy(otherSprite)
     velocidadX = 200
-    controller.moveSprite(mySprite, velocidadX, 0)
+    controller.moveSprite(pebble, velocidadX, 0)
     timer.after(2000, function () {
         velocidadX = 100
-        controller.moveSprite(mySprite, velocidadX, 0)
+        controller.moveSprite(pebble, velocidadX, 0)
     })
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.obstaculo, function (sprite, otherSprite) {
@@ -77,7 +77,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Vida, function (sprite, otherSpr
 function crearNivel () {
     if (nivelActual == 1) {
         tiles.setCurrentTilemap(tilemap`nivel1`)
-        tiles.placeOnTile(mySprite, tiles.getTileLocation(1, 7))
+        tiles.placeOnTile(pebble, tiles.getTileLocation(1, 7))
     }
     crearRecompensas()
     crearObstaculos()
@@ -111,7 +111,7 @@ let mySprite5: Sprite = null
 let mySprite4: Sprite = null
 let mySprite9: Sprite = null
 let mySprite8: Sprite = null
-let mySprite: Sprite = null
+let pebble: Sprite = null
 let mySprite7: Sprite = null
 let cantidadSaltos = 0
 let velocidadX = 0
@@ -125,21 +125,21 @@ velocidadX = 100
 configurarPersonaje()
 crearNivel()
 game.onUpdate(function () {
-    mySprite.setImage(assets.image`Walking`)
+    pebble.setImage(assets.image`Walking`)
     direccion = 1
-    if (mySprite.vx == 0) {
-        mySprite.setImage(assets.image`Idle`)
+    if (pebble.vx == 0) {
+        pebble.setImage(assets.image`Idle`)
     }
-    if (mySprite.vy < 0) {
-        mySprite.setImage(assets.image`Jump`)
-    } else if (mySprite.vy > 0) {
-        mySprite.setImage(assets.image`Idle`)
-    } else if (mySprite.vx < 0) {
-        mySprite.setImage(assets.image`Walking`)
+    if (pebble.vy < 0) {
+        pebble.setImage(assets.image`Jump`)
+    } else if (pebble.vy > 0) {
+        pebble.setImage(assets.image`Idle`)
+    } else if (pebble.vx < 0) {
+        pebble.setImage(assets.image`Walking`)
     }
-    if (mySprite.vx < 0) {
+    if (pebble.vx < 0) {
         direccion = -1
-        mySprite.image.flipX()
-        mySprite.setImage(mySprite.image)
+        pebble.image.flipX()
+        pebble.setImage(pebble.image)
     }
 })
